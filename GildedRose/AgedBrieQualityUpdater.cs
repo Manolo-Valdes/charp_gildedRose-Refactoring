@@ -9,7 +9,7 @@
                 item.IncreaseQuality();
             }
 
-            item.SellIn = item.SellIn - 1;
+            item.DecreaseSellIn();
             if (item.SellIn < 0)
             {
                 if (item.Quality < 50)

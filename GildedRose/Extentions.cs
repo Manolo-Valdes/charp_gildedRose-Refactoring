@@ -16,4 +16,9 @@ static class Extentions
     {
         item.Quality = 0;
     }
+
+    public static void DecreaseSellIn(this Item item)
+    {
+        item.SellIn -= 1;
+    }
 }
