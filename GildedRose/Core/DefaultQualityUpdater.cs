@@ -1,4 +1,4 @@
-﻿namespace GildedRoseKata
+﻿namespace GildedRoseKata.Core
 {
     internal class DefaultQualityUpdater : Contracts.IQualityUpdater
     {

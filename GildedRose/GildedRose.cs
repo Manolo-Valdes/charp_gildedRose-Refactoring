@@ -1,4 +1,5 @@
 ﻿using GildedRoseKata.Contracts;
+using GildedRoseKata.Core;
 using System.Collections.Generic;
 
 namespace GildedRoseKata;
@@ -18,7 +19,6 @@ public class GildedRose
     {
         for (var i = 0; i < Items.Count; i++)
         {
-            // use a local variable for the item
             Item item = Items[i];
             var updater = qualityUpdaterFactory.GetQualityUpdater(item);
             updater.UpdateQuality(item);

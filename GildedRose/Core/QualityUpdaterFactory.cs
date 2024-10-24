@@ -1,7 +1,6 @@
-﻿
-using GildedRoseKata.Contracts;
+﻿using GildedRoseKata.Contracts;
 
-namespace GildedRoseKata
+namespace GildedRoseKata.Core
 {
     public class QualityUpdaterFactory : IQualityUpdaterFactory
     {
