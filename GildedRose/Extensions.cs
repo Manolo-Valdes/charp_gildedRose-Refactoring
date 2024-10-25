@@ -1,6 +1,6 @@
 ﻿namespace GildedRoseKata;
 
-static class Extentions
+static class Extensions
 {
     public static void IncreaseQuality(this Item item)
     {
